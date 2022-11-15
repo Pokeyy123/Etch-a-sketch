@@ -1,0 +1,36 @@
+.board {
+    width: 500px;
+    height: 500px;
+    display: grid;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #283747;
+}
+
+h1 {
+    color:aliceblue;
+}
+
+button {
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #283747;
+    color:aliceblue;
+    font-size: medium;
+    border: 1px solid;
+    border-radius: 5px;
+    transition-duration: 250ms;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: aliceblue;
+    color:black;
+}
